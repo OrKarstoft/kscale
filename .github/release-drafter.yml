@@ -1,8 +1,8 @@
-name-template: "$RESOLVED_VERSION"
-tag-template: "$RESOLVED_VERSION"
+name-template: "app-$RESOLVED_VERSION"
+tag-template: "app-$RESOLVED_VERSION"
+tag-prefix: "app-"
 exclude-labels:
   - helm-chart
-tag-prefix: ""
 categories:
   - title: Breaking Changes 💥
     labels:
