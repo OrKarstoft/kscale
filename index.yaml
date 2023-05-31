@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   kscale:
   - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2023-05-31T12:13:17.408374994Z"
+    description: A Helm chart for kscale deployment
+    digest: a55cba5d67f2a3d3d6f39f8762483e78154e81434230a71617caa33b8a0070aa
+    name: kscale
+    type: application
+    urls:
+    - https://github.com/OrKarstoft/kscale/releases/download/chart-0.2.0/kscale-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.2.0
     created: "2023-05-15T08:30:20.710027041Z"
     description: A Helm chart for kscale deployment
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://github.com/OrKarstoft/kscale/releases/download/chart-0.0.1/kscale-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-15T08:30:20.710038041Z"
+generated: "2023-05-31T12:13:17.408393794Z"
